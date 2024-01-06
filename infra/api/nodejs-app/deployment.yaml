@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: nodejs-app
-          image: [docker-registry]/devops-nodejs-app:{tag}
+          image: manhhoangseta/devops-nodejs-app:fde58a6bb0bcdb0c7c6c5a1fbd2c5767967ae76b
           command: ["nodejs", "app.js"]
           ports:
             - name: http
